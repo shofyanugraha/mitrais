@@ -2,6 +2,7 @@
 $DATABASE_URL=parse_url('postgres://vglpbuiccsradq:0532c0669d41295d874102858a5d4ed9376bb3dae52be3fb92333926015ac288@ec2-174-129-226-232.compute-1.amazonaws.com:5432/d4jng82coebuve');
 return [
     'default' => 'pgsql',
+    'migrations' => 'migrations',
     'connections' => [
         'mysql' => [
             'driver' => 'mysql',
